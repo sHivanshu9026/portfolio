@@ -1447,14 +1447,28 @@ body {
     transform: rotate(-45deg) translate(7px, -7px);
   }
   
+  .about-media {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-title-col h2 {
+    font-size: 2.2rem;
+  }
+
   .cert-item {
     grid-template-columns: 1fr;
+    text-align: center;
     gap: 16px;
     padding: 24px;
   }
+
+  .cert-meta {
+    align-items: center;
+  }
   
   .cert-link-btn {
-    align-self: flex-start;
+    align-self: center;
   }
   
   .footer-content {
